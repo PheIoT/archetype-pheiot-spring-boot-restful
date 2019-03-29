@@ -25,17 +25,12 @@ maven环境
 1.在项目根目录下运行：
 
 ```
-mvn archetype:create-from-project
-```
-2.切换到target/generated-sources/archetype/下,运行下面命令进行打包
-
-```
 mvn install
 ```
-3.根据archetype创建项目
+2.根据本地的archetype创建项目，选择pheiot-spring-boot-restful
 
 ```
 mvn archetype:generate -DarchetypeCatalog=local
 ```
 
-选择项目此模板即可。
+选择项目此模板一次输入相应信息即可。
